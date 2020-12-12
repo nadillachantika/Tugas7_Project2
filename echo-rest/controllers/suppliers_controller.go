@@ -23,18 +23,18 @@ func AddSupplier(c echo.Context) (err error) {
 	return c.JSON(http.StatusOK, result)
 }
 
-// //UpdateSuppliers ...
-// func UpdateSuppliers(c echo.Context) (err error) {
+//UpdateSuppliers ...
+func UpdateSuppliers(c echo.Context) (err error) {
 
-// 	result, err := models.UpdateSupplier(c)
+	result, err := models.UpdateSupplier(c)
 
-// 	return c.JSON(http.StatusOK, result)
-// }
+	return c.JSON(http.StatusOK, result)
+}
 
-// //DeleteSuppliers ...
-// func DeleteSuppliers(c echo.Context) (err error) {
+//DeleteSuppliers ...
+func DeleteSuppliers(c echo.Context) (err error) {
 
-// 	result, err := models.DeleteSupplier(c)
+	result, err := models.DeleteSupplier(c)
 
-// 	return c.JSON(http.StatusOK, result)
-// }
+	return c.JSON(http.StatusOK, result)
+}

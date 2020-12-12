@@ -13,8 +13,8 @@ func SuppliersRoute(g *echo.Group) {
 
 	g.POST("/add", controllers.AddSupplier)
 
-	// g.POST("/update", controllers.UpdateSuppliers)
+	g.POST("/update", controllers.UpdateSuppliers)
 
-	// g.POST("/delete", controllers.DeleteSuppliers)
+	g.POST("/delete", controllers.DeleteSuppliers)
 
 }
